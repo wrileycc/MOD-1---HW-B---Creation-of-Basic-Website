@@ -1,0 +1,59 @@
+/* External CSS - styles.css */
+
+body {
+    background-color: #f0f8ff;  /* AliceBlue background color */
+    color: #333333;  /* Dark text for good contrast */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;  /* Green background for the header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #2E8B57;  /* SeaGreen color for list items */
+}
+
+footer {
+    background-color: #FF6347;  /* Tomato color for footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: #1E90FF;  /* DodgerBlue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.small-image {
+    display: block;
+    margin: 10px auto;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;  /* Makes the image circular */
+    border: 2px solid #FF6347; /* Red border around image */
+}
